@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+#container {
+  width: 100%;
+  height: 100%;
+  background-color:#E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+#box-content{
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+#logo-header {
+  width: 178px;
+  height: 36px;
+}
+#my-header {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  background-color: #111111;
+}
+#my-header h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+
+  position: relative;
+  left: 150px;
+  top: 15px;
+}
+#my-header img {
+  position: relative;
+  top: 15px;
+  left: 150px;
+}
+
+#line {
+  position: relative;
+  left: 148px;
+  margin-top: 4px;
+  height: 36px;
+  top: 12px;
+}
+#my-header h2 {
+  margin-left: 10px;
+}
+
+#box-content {
+  width: 1220px;
+  height: 136px;
+  display: flex; 
+  align-self: center;
+}
+#box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  top: -60px;
+  background-color: #ffffff;
+  width: 352px;
+  height: 136px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+
+}
+#box span {
+  display: flex;
+  align-self: flex-start;
+  position: relative;
+  top: 20px;
+  right: -15px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+#box p {
+  position: relative;
+  top: 28px;
+  left: 28px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#box-total {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  top: -60px;
+  background-color: #ffffff;
+  width: 352px;
+  height: 136px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+
+}
+
+#box a {
+  color: #363F5F;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  
+  position: relative;
+  top: 60px;
+
+}
+
+#low-box {
+  background-color: #FFFFFF;
+  width: 1120px;
+  height: 64px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+#low-box-title {
+  position: relative;
+  width: 378px;
+  left: 32px;
+}
+#low-box-price {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 115px;
+}
+#low-box-category {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 198px;
+}
+#low-box-date {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 275px;
+}
+
+
+
+#low-box a {
+  color: #363F5F;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main {
+  flex: 1;
+  width: 1220px;
+  height: 1600px;
+  display: flex;
+  position: relative;
+  top: 0;
+  align-self: center;
+  flex-direction: column;
+}
+
+main #low-content {
+  align-self: center;
+  width: 1120px;
+}
+#low-content-title {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#low-content-title span {
+  width: 42px;
+  height:24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969CB3;
+}
+#title-group {
+  width: 501px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: -125px;
+}
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #111111;
+  opacity: 0.990;
+  
+}
+footer span {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+#add-button {
+  width: 200px;
+  height: 60px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #e5e5e5;
+  background-color: #4caf50;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 600;
+
+  align-self: flex-end;
+  margin-top: 30px;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+#enter-icon {
+  color: #4caf50;
+
+}
+#out-icon {
+  color: rgba(255, 0, 0, 0.822);
+  position: relative;
+  right: -15px;
+}
+#currency-icon {
+  color: #b8af09;
+  position: relative;
+  right: -45px;
+}
+
+
+
+button:focus {
+  outline:0;
+}
+
+h1, h2, h3, h4, h5, a {
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff;
+}
