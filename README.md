@@ -1,5 +1,5 @@
 # theskullbra-finances
-##Preview 
+## Preview 
 ![alt text](https://github.com/jvfaria/theskullbra-finances/blob/master/frontend/assets/TSKBhome_page.JPG)
 
 ## Running the backend:
