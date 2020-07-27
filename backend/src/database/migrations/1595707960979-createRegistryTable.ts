@@ -9,7 +9,8 @@ export class createRegistryTable1595707960979 implements MigrationInterface {
                 {
                     name: 'id',
                     type: 'varchar',
-                    isPrimary: true
+                    isPrimary: true,
+                    default: 'uuid_generate_v4()'
                 },
                 {
                     name: 'title',
@@ -18,9 +19,9 @@ export class createRegistryTable1595707960979 implements MigrationInterface {
                 },
                 {
                     name: 'value',
-                    type: 'varchar',
+                    type: 'decimal',
                     isNullable: false,
-                    default: 0  
+                    default: 0.00
                 },
                 {
                     name: 'category',
