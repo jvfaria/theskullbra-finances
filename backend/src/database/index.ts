@@ -1,3 +1,3 @@
-import typeorm from 'typeorm';
+import { createConnection } from 'typeorm';
 
-typeorm.createConnection();
+createConnection();
