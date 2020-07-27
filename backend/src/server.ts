@@ -1,9 +1,11 @@
 import express, { json } from 'express';
-import app from '../src/routes/index.routes';
+import routes from '../src/routes/index.routes';
+import './database';
 
-
+const app = express();
 app.use(express.json());
+app.use(routes);
 
 app.listen(3334, () => {
-  console.log('Backend is running on port 3334')
+  console.log('Skull is running on port 3334')
 });
