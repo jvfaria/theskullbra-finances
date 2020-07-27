@@ -10,10 +10,13 @@ id: string
 title: string
 
 @Column()
+value: number
+
+@Column()
 category: string
 
 @Column()
-created_at: string
+created_at: Date
 
 }
 
