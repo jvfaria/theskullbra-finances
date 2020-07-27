@@ -1,9 +1,9 @@
-import homeRoutes from '../routes/Home/home.routes';
-import express from 'express';
+import registriesRoutes from './registry.routes';
+import { Router } from 'express';
 
-const app = express();
+const routes = Router();
 
-app.use('/home', homeRoutes);
+routes.use('/registries', registriesRoutes);
 
 
-export default app;
+export default routes;
